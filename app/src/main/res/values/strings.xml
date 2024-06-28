@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CRUD Operations</string>
+    <string name="addproduct"> Add  Product</string>
+    <string name="deleteproduct"> Delete Product</string>
+    <string name="viewproduct"> View  Product</string>
+    <string name="editproduct"> Edit Product</string>
+
+</resources>

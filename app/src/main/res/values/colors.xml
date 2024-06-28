@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="addproduct">#F2ACCD</color>
+    <color name="viewproduct">#BF6989</color>
+    <color name="editproduct">#BCB3F2</color>
+    <color name="deleteproduct">#5288F2</color>
+</resources>
