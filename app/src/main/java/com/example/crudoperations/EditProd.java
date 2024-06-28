@@ -8,14 +8,14 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Addprod extends AppCompatActivity {
+public class EditProd extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_addprod);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.mainadd), (v, insets) -> {
+        setContentView(R.layout.activity_edit_prod);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.mainedit), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;

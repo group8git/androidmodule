@@ -47,17 +47,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(MainActivity.this,"you can edit product",Toast.LENGTH_LONG).show();
+                startActivity(new Intent(MainActivity.this, EditProd.class));
+//                Toast.makeText(MainActivity.this,"you can edit product",Toast.LENGTH_LONG).show();
             } });
         viewproduct.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"you can view product",Toast.LENGTH_LONG).show();
+                startActivity(new Intent(MainActivity.this, ViewProd.class));
+//                Toast.makeText(getApplicationContext(),"you can view product",Toast.LENGTH_LONG).show();
             } });
         deleteproduct.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"you can delete product",Toast.LENGTH_LONG).show();
+                startActivity(new Intent(MainActivity.this, DeleteProd.class));
+//                Toast.makeText(getApplicationContext(),"you can delete product",Toast.LENGTH_LONG).show();
             } });
 
 
